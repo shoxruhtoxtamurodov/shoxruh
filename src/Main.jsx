@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from './Banner';
+import Cards from './Cards';
 
 function Main() {
   return (
@@ -7,6 +8,7 @@ function Main() {
          <h1>salom hammaga </h1>
          <button>add</button>
          <Banner/>
+         <Cards/>
     </div>
   )
 }
